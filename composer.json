@@ -1,5 +1,5 @@
 {
-    "name": "vova07/yii2-imperavi-widget",
+    "name": "voodoo-mobile/yii2-imperavi-widget",
     "description": "The imperavi redactor widget for Yii 2 framework.",
     "type": "yii2-extension",
     "keywords": [
@@ -20,12 +20,14 @@
             "email": "bazillio07@yandex.ru",
             "homepage": "https://github.com/vova07",
             "role": "Developer"
+        },
+        {
+            "name": "Voodoo Mobile Ltd.",
+            "email": "public@voodoo-mobile.com",
+            "homepage": "https://voodoo.rocks",
+            "role": "Developer"
         }
     ],
-    "support": {
-        "issues": "https://github.com/vova07/yii2-imperavi-widget/issues?state=open",
-        "source": "https://github.com/vova07/yii2-imperavi-widget"
-    },
     "require": {
         "yiisoft/yii2": "*"
     },
@@ -36,7 +38,7 @@
     },
     "autoload": {
         "psr-4": {
-            "vova07\\imperavi\\": "src"
+            "vm\\queue\\": "src"
         }
     },
     "extra": {
