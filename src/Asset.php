@@ -1,6 +1,6 @@
 <?php
 
-namespace vova07\imperavi;
+namespace vm\imperavi;
 
 use yii\web\AssetBundle;
 
@@ -16,7 +16,7 @@ class Asset extends AssetBundle
 	/**
 	 * @inheritdoc
 	 */
-	public $sourcePath = '@vova07/imperavi/assets';
+	public $sourcePath = '@vm/imperavi/assets';
 
 	/**
 	 * @var string Redactor language

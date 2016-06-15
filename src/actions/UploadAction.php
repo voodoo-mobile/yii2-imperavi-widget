@@ -1,6 +1,6 @@
 <?php
 
-namespace vova07\imperavi\actions;
+namespace vm\imperavi\actions;
 
 use vova07\imperavi\Widget;
 use yii\base\Action;
@@ -139,7 +139,7 @@ class UploadAction extends Action
                     }
                 } else {
                     $result = [
-                        'error' => Yii::t('vova07/imperavi', 'ERROR_CAN_NOT_UPLOAD_FILE')
+                        'error' => Yii::t('vm/imperavi', 'ERROR_CAN_NOT_UPLOAD_FILE')
                     ];
                 }
             }

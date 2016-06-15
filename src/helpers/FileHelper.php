@@ -1,6 +1,6 @@
 <?php
 
-namespace vova07\imperavi\helpers;
+namespace vm\imperavi\helpers;
 
 use vova07\imperavi\actions\GetAction;
 use yii\base\InvalidParamException;

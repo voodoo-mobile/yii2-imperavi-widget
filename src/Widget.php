@@ -1,6 +1,6 @@
 <?php
 
-namespace vova07\imperavi;
+namespace vm\imperavi;
 
 use Yii;
 use yii\base\InvalidConfigException;
@@ -20,14 +20,14 @@ use yii\web\JsExpression;
  *
  * @author Vasile Crudu <bazillio07@yandex.ru>
  *
- * @link https://github.com/vova07/yii2-imperavi-widget
+ * @link https://github.com/vm/yii2-imperavi-widget
  * @link http://imperavi.com/redactor
- * @license https://github.com/vova07/yii2-imperavi-widget/blob/master/LICENSE.md
+ * @license https://github.com/vm/yii2-imperavi-widget/blob/master/LICENSE.md
  */
 class Widget extends BaseWidget
 {
     /** Name of inline JavaScript package that is registered by the widget */
-    const INLINE_JS_KEY = 'vova07/imperavi/';
+    const INLINE_JS_KEY = 'vm/imperavi/';
 
     /**
      * @var Model the data model that this widget is associated with.
@@ -143,13 +143,13 @@ class Widget extends BaseWidget
      */
     public static function registerTranslations()
     {
-        if (!isset(Yii::$app->i18n->translations['vova07/imperavi']) && !isset(Yii::$app->i18n->translations['vova07/imperavi/*'])) {
-            Yii::$app->i18n->translations['vova07/imperavi'] = [
+        if (!isset(Yii::$app->i18n->translations['vm/imperavi']) && !isset(Yii::$app->i18n->translations['vm/imperavi/*'])) {
+            Yii::$app->i18n->translations['vm/imperavi'] = [
                 'class' => 'yii\i18n\PhpMessageSource',
-                'basePath' => '@vova07/imperavi/messages',
+                'basePath' => '@vm/imperavi/messages',
                 'forceTranslation' => true,
                 'fileMap' => [
-                    'vova07/imperavi' => 'imperavi.php'
+                    'vm/imperavi' => 'imperavi.php'
                 ]
             ];
         }

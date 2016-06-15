@@ -1,6 +1,6 @@
 <?php
 
-namespace vova07\imperavi\actions;
+namespace vm\imperavi\actions;
 
 use Yii;
 use yii\base\Action;
