@@ -54,7 +54,7 @@ class Asset extends AssetBundle
 	 */
 	public function registerAssetFiles($view)
 	{
-		if ($this->language !== null) {
+		if ($this->language !== null && $this->language !== 'en') {
 			$this->js[] = 'lang/' . $this->language . '.js';
 		}
 		if (!empty($this->plugins)) {
