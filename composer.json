@@ -38,7 +38,7 @@
     },
     "autoload": {
         "psr-4": {
-            "vm\\queue\\": "src"
+            "vm\\imperavi\\": "src"
         }
     },
     "extra": {
