@@ -6497,6 +6497,8 @@
 				{
 					if ($.inArray('ul', this.selection.getBlocks())) cmd = 'unorderedlist';
 
+					$($list).prepend(" ");
+
 					document.execCommand('insert' + cmd);
 
 					var $current = $(this.selection.getCurrent());
